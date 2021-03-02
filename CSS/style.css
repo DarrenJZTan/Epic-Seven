@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background: url("https://static.smilegatemegaport.com/event/live/epic7/brand/v2/images/common/bg_section01.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn-menu .bi {
+  left: 50%;
+  top: 50%;
+  font-size: 36px;
+  color: white;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin: 10px;
+  outline: none;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+  transform: translateX(-100%);
+  text-align: center;
+}
+.open {
+  transform: translateX(0%);
+}
+.sidenav a {
+  padding: 8px 0px;
+  margin: 50px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: all 0.3s ease;
+  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav .icon-row i {
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 0px 5px;
+  color:white;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.icon-row a {
+  display:inline-block; 
+  width:60px;
+}
