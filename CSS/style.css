@@ -77,3 +77,10 @@ button {
   display:inline-block; 
   width:60px;
 }
+
+.block {
+  padding: 10px;
+  background-color: whitesmoke;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
